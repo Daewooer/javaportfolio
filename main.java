@@ -4,7 +4,7 @@ public class main {
     public static void main (String args[]) {
         int MyAge = 12;
         String MyName = "Kostas Zafolias";
-        char MyChar = 'K';
+        char MyChar = 'K'; //useless var
         String MyLanguage = "I know HTML and CSS , Javascript , Java , Python , GO and SQL";        
         //variables 
         Scanner myObj = new Scanner(System.in);
@@ -18,6 +18,6 @@ public class main {
     } // end of 
     else {
         System.out.println ("oh well");
-    } // end of if-else
+    } 
     }
     }
